@@ -43,10 +43,10 @@ export default function Layout({ children, home, nft, context }) {
 			<main>{children}</main>
 
 			<footer className={home ? styles.footerHome : styles.footer}>
-				<Link href="https://github.com/Pritish-Sinha/C-Flox">
-					<a>FLOX</a>
+				<Link href="https://github.com/stephanfowler/nft-surface">
+					<a>NFT Surface</a>
 				</Link>
-				{context.chainId > 80001 &&
+				{context.chainId > 1 &&
 					<div className={styles.alertIsTestnet}>{chainParams(context.chainId).chainName}</div>
 				}
 			</footer>
