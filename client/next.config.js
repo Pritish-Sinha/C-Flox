@@ -13,7 +13,7 @@ module.exports = {
       ipfsGateway:      process.env.ipfsGateway
     },
     images: {
-      domains: ['stephanfowler.com'],
+      domains: ['github.io'],
     },
     target: 'serverless'
   }
