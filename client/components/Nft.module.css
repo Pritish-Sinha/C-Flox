@@ -1,0 +1,163 @@
+.nft {
+    display: grid;
+}
+
+@media only screen and (min-width: 550px) {
+    .nft {
+        grid-template-columns: 1fr 1fr;
+    }    
+}
+
+.nftImage,
+.nftThumb {
+    border-bottom: 1px solid white;
+}
+
+@media only screen and (min-width: 550px) {
+    .nftImage,
+    .nftThumb {
+        margin: 1rem;
+    }    
+}
+
+.nftThumb {
+    background: #fff;
+    padding: 1rem 0 0 0;
+}
+
+.nftThumb .nftName {
+    font-size: inherit;
+}
+
+.nftThumbDeets {
+		margin: 0 0 2rem 0;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
+}
+
+.nftSections {
+		padding: 0 1rem;
+}
+
+.nftSection {
+    padding: 1rem 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.nftSection:last-of-type {
+    border-bottom: none;
+}
+
+.nftDetails {
+    font-size: smaller;
+}
+
+.nftDetails div {
+    margin: 0 0 .25rem 0;
+}
+
+.nftStatusPending {
+    min-height: 1.5rem;
+    max-height: 1.5rem;
+    overflow: hidden;
+    background: white;
+    color: darkgrey
+}
+
+.nftStatus {
+    background: white;
+    overflow: hidden;
+    min-height: 2rem;
+    max-height: 20rem;
+    transition: max-height 0.3s ease-in;   
+}
+
+.nftStatus > div:first-of-type {
+    font-weight: bold;
+}
+
+.nftStatus > div {
+    margin-bottom: 0.25rem;
+}
+
+.connection {
+    color:orange;
+    font-size: smaller;
+}
+
+.connection a {
+    color:orange;
+}
+
+.nftThumbImage.portrait {
+    margin: 0 1rem;
+}
+
+.nftThumbImage.landscape {
+    margin: 0;
+}
+
+.nftName {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.notification {
+		margin: 1rem 0 !important;
+    color: orange;
+    font-size: smaller;
+}
+
+.notification a {
+    font-weight:bold;
+    color: orange;
+}
+
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+.notificationPending {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    color: orange;
+    padding: 1rem;
+    background: linear-gradient(to right, lightgoldenrodyellow 8%, white 18%, lightgoldenrodyellow 33%);
+    background-size: 800px 104px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.nftPriceETH {
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+
+.nftPriceGas {
+    font-weight: normal;
+    font-size: smaller;
+}
+
+.formActions {
+    margin: 0.5rem 0;
+}
+
+.bigInput {
+    display: block;
+    width: 100%;
+}
+
+button.secondary {
+	background: white;
+	color: black;
+	border: 1px solid black;
+}
