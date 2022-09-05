@@ -1,6 +1,6 @@
 # Flox
-Garuda Hack 3.0
-
+Winner at Garuda Hack 3.0
+![NFT display/minting page](/public/win.png?raw=true "NFT display/minting page")
 ## White-label NFT gallery
 
 * Showcase, mint, sell, buy, and transfer NFTs
