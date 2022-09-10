@@ -1,5 +1,5 @@
 # Flox
-Winner at Garuda Hack 3.0
+Winner in Garuda Hack 3.0
 <br></br>
 ![NFT display/minting page](/public/win.png?raw=true "NFT display/minting page")
 ## White-label NFT gallery
