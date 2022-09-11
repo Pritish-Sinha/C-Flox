@@ -1,8 +1,4 @@
 # Flox
-Winner in Garuda Hack 3.0
-<br></br>
-![NFT display/minting page](/public/win.png?raw=true "NFT display/minting page")
-## White-label NFT gallery
 
 * Showcase, mint, sell, buy, and transfer NFTs
 * ERC-721 smart contract
